@@ -118,7 +118,7 @@ const Navbar = () => {
           <li className='py-1'>SMART AI CHATBOT</li>
         </a>
         {!token && (
-          <NavLink to={'https://Prescripto-admin-ka03.onrender.com'} target='_blank'>
+          <NavLink to={'https://medi-bridgeadmin.onrender.com'} target='_blank'>
             <button className='px-3 py-2 border bg-gray-100 text-black rounded flex items-center gap-1'>
               <WordRotate words={['Admin', 'Doctor']} /> Login
             </button>
